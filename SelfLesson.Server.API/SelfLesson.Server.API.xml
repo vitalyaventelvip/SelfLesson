@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SelfLesson.Server.API</name>
+    </assembly>
+    <members>
+        <member name="M:SelfLesson.Server.API.Controllers.ProductsController.Get">
+            <summary>
+            Получить список товаров
+            </summary>
+        </member>
+        <member name="M:SelfLesson.Server.API.Controllers.ProductsController.Get(System.Int32)">
+            <summary>
+            Получить товар
+            </summary>
+            <param name="id">Идентификатор товара</param>
+        </member>
+        <member name="M:SelfLesson.Server.API.Controllers.ProductsController.Post(System.String)">
+            <summary>
+            Добавить товар
+            </summary>
+            <param name="name">Наименвоание товара</param>
+        </member>
+    </members>
+</doc>
