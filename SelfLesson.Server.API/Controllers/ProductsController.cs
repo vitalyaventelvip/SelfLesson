@@ -24,7 +24,6 @@ namespace SelfLesson.Server.API.Controllers
         /// Получить список товаров
         /// </summary>
         [HttpGet]
-        [Route("")]
         public List<Product> Get()
         {
             return productService.List();
